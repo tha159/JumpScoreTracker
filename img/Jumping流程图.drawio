@@ -1,0 +1,122 @@
+<mxfile host="Electron" modified="2024-03-03T10:17:06.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="C9d2fpQ47QcBu8IrrrsQ" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="Al4VYUwwQj6CmcTIVXN0">
+    <mxGraphModel dx="1373" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="np7GZQmypcX25nZ0naTP-34" value="自动识别跳远刻度线坐标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="208" y="150" width="192" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-35" value="检录学生信息并显示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="223" y="234" width="161" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-36" value="检测学生起跳动作与踩线情况" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="114" y="318" width="224" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-37" value="记录起跳时的脚坐标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="146" y="402" width="161" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-38" value="检测学生跳跃动作与落地脚坐标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="106" y="486" width="241" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-39" value="判断跳跃是否规范" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="570" width="143" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-40" value="规范跳跃" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="84" y="654" width="81" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-41" value="使用测距算法计算跳跃成绩" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="738" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-42" value="重复机会" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="288" y="822" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-43" value="不规范跳跃" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="279" y="738" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-44" value="三次机会用完" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="272" y="906" width="112" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-45" value="录入数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="990" width="96" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4986979166666667;exitY=1;entryX=0.5015527950310559;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-34" target="np7GZQmypcX25nZ0naTP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.30608547766932853;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-35" target="np7GZQmypcX25nZ0naTP-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.4968944099378882;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-36" target="np7GZQmypcX25nZ0naTP-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4968944099378882;exitY=1;entryX=0.4979253112033195;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-37" target="np7GZQmypcX25nZ0naTP-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4979253112033195;exitY=1;entryX=0.4965034965034965;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-38" target="np7GZQmypcX25nZ0naTP-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.20920745920745915;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-39" target="np7GZQmypcX25nZ0naTP-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-40" target="np7GZQmypcX25nZ0naTP-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.00625;entryY=0.256592292089251;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-41" target="np7GZQmypcX25nZ0naTP-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99375;exitY=0.08651242923947929;entryX=0.861690328305235;entryY=1;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-42" target="np7GZQmypcX25nZ0naTP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="797" />
+              <mxPoint x="447" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7837995337995338;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-39" target="np7GZQmypcX25nZ0naTP-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="328" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49375;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-43" target="np7GZQmypcX25nZ0naTP-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49375;exitY=1;entryX=0.4955357142857143;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-42" target="np7GZQmypcX25nZ0naTP-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="np7GZQmypcX25nZ0naTP-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4955357142857143;exitY=1;entryX=0.4947916666666667;entryY=0;rounded=0;" edge="1" parent="1" source="np7GZQmypcX25nZ0naTP-44" target="np7GZQmypcX25nZ0naTP-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
